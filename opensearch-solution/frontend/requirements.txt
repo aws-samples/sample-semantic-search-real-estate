@@ -1,0 +1,11 @@
+streamlit==1.66.1
+# Explicitly pinned to stay ahead of Pillow advisories.
+pillow==13.0.0
+opensearch-py==3.2.0
+boto3==1.43.27
+botocore==1.43.27
+pandas==3.0.3
+requests-aws4auth==1.3.2
+langchain-core==1.6.13
+folium==0.20.0
+streamlit-folium==0.27.2

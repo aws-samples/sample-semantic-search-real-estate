@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.env*
+.streamlit/secrets.toml
+*.log
+docker-compose*.yml
+run-dev.sh
+DOCKER_SECURITY_FIXES.md

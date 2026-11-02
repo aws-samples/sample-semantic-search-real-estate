@@ -1,0 +1,24 @@
+services:
+  opensearch-streamlit:
+    image: opensearch-streamlit:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8080:8501"
+    environment:
+      OPENSEARCH_ENDPOINT: ${OPENSEARCH_ENDPOINT:?Set OPENSEARCH_ENDPOINT}
+      AWS_REGION: ${AWS_REGION:?Set AWS_REGION}
+      INDEX_NAME: ${INDEX_NAME:-real-estate-properties}
+      PLACE_INDEX_NAME: ${PLACE_INDEX_NAME:?Set PLACE_INDEX_NAME}
+      COGNITO_USER_POOL_ID: ${COGNITO_USER_POOL_ID:?Set COGNITO_USER_POOL_ID}
+      COGNITO_APP_CLIENT_ID: ${COGNITO_APP_CLIENT_ID:?Set COGNITO_APP_CLIENT_ID}
+      COGNITO_IDENTITY_POOL_ID: ${COGNITO_IDENTITY_POOL_ID:?Set COGNITO_IDENTITY_POOL_ID}
+      SEMANTIC_SEARCH_DEBUG: ${SEMANTIC_SEARCH_DEBUG:-false}
+    entrypoint: ["./entrypoint.sh"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health', timeout=4)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

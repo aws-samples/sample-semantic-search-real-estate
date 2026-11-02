@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit secrets - be very specific about these paths
+**/secrets.toml
+**/.streamlit/secrets.toml
+opensearch-solution/.streamlit/secrets.toml
+
+# AWS CDK
+cdk.out/
+.cdk.staging/
+cdk-outputs.json
+
+# AWS credentials
+.aws/
+.aws-sam/
+samconfig.toml
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*~

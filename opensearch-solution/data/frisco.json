@@ -1,0 +1,50 @@
+[
+  {
+    "propertyId": "FRI001",
+    "propertyName": "Fictional X1 Single Family Residence 1",
+    "propertyType": "Single Family Residence",
+    "propertyAddress": "1 Fictional X1 Street, Frisco",
+    "propertyFeatures": "garden, garage, balcony",
+    "propertyCoordinates": "33.16975,-96.83719",
+    "propertyPrice": 305000,
+    "propertyBedrooms": 5,
+    "propertyBathrooms": 1.5,
+    "propertySquareFeet": 1119,
+    "propertyYearBuilt": 1993,
+    "propertyDescription": "This is a synthetic listing for property FRI001, which is a Single Family Residence marked as X1.",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "propertyId": "FRI002",
+    "propertyName": "Fictional X2 Townhouse 2",
+    "propertyType": "Townhouse",
+    "propertyAddress": "2 Fictional X2 Street, Frisco",
+    "propertyFeatures": "patio, fireplace, storage",
+    "propertyCoordinates": "33.16226,-96.84635",
+    "propertyPrice": 352000,
+    "propertyBedrooms": 3,
+    "propertyBathrooms": 2.5,
+    "propertySquareFeet": 1292,
+    "propertyYearBuilt": 2000,
+    "propertyDescription": "This is a synthetic listing for property FRI002, which is a Townhouse marked as X2.",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "propertyId": "FRI003",
+    "propertyName": "Fictional X3 Multi Family 3",
+    "propertyType": "Multi Family",
+    "propertyAddress": "3 Fictional X3 Street, Frisco",
+    "propertyFeatures": "terrace, parking, shed",
+    "propertyCoordinates": "33.17827,-96.79351",
+    "propertyPrice": 399000,
+    "propertyBedrooms": 1,
+    "propertyBathrooms": 3.5,
+    "propertySquareFeet": 1465,
+    "propertyYearBuilt": 2007,
+    "propertyDescription": "This is a synthetic listing for property FRI003, which is a Multi Family marked as X3.",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z"
+  }
+]

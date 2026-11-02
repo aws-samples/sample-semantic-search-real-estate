@@ -1,0 +1,34 @@
+[
+  {
+    "propertyId": "CUP001",
+    "propertyName": "Fictional X1 Single Family Residence 1",
+    "propertyType": "Single Family Residence",
+    "propertyAddress": "1 Fictional X1 Street, Cupertino",
+    "propertyFeatures": "garden, garage, balcony",
+    "propertyCoordinates": "37.31180,-122.04796",
+    "propertyPrice": 344000,
+    "propertyBedrooms": 3,
+    "propertyBathrooms": 3.0,
+    "propertySquareFeet": 1242,
+    "propertyYearBuilt": 1996,
+    "propertyDescription": "This is a synthetic listing for property CUP001, which is a Single Family Residence marked as X1.",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "propertyId": "CUP002",
+    "propertyName": "Fictional X2 Townhouse 2",
+    "propertyType": "Townhouse",
+    "propertyAddress": "2 Fictional X2 Street, Cupertino",
+    "propertyFeatures": "patio, fireplace, storage",
+    "propertyCoordinates": "37.32935,-121.99380",
+    "propertyPrice": 391000,
+    "propertyBedrooms": 1,
+    "propertyBathrooms": 4.0,
+    "propertySquareFeet": 1415,
+    "propertyYearBuilt": 2003,
+    "propertyDescription": "This is a synthetic listing for property CUP002, which is a Townhouse marked as X2.",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,8 @@
+*
+# Re-include only the exact files the data-loader image needs. Re-including whole
+# directories (for example !backend/) would also pull in backend/infrastructure/cdk.out
+# and virtualenvs, which nests prior CDK output into each new asset.
+!backend/scripts/Dockerfile
+!backend/scripts/requirements.txt
+!backend/scripts/setup_opensearch_index.py
+!data/*.json
